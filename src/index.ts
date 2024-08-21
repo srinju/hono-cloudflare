@@ -39,3 +39,6 @@ app.post('/' , authmiddleware ,async (c) => {
 })
 
 export default app
+
+//database connections in hono is done after aws and actionable docker 
+
